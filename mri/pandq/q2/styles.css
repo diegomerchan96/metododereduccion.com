@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+@font-face {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Trebuchet MS"), url("./fonts/trebuc.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.minor {
+    padding: 0 0.3rem;
+}
+
+.top {
+    padding-top: 30px;
+}
+
+.bar {
+    width: calc(100% - 0.3rem);
+    max-width: 980px;
+    height: 10px;
+    background: #ff0000;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto 10px auto;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.featured {
+    color: #f60303;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.space {
+    gap: 20px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.section {
+    max-width: 356px;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.notice {
+    background: #f60303;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ffffff;
+    margin: 0;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.image {
+    width: 70%;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #ff0000;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.dark {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.announce {
+    padding: 3rem 1rem 2rem 1rem;
+    border-radius: 0 0 15px 15px;
+    background: #ad0f0e;
+    font-family: "Trebuchet MS", sans-serif;
+    transition: all 0.7s ease;
+}
+
+#announce {
+    transition: all 0.7s ease;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.question {
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.q {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1.2rem;
+    row-gap: 0.6rem;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    font-family: "Trebuchet MS", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    background: #fab837;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 0px 8px -1px rgb(0 0 0 / 50%);
+    padding: 18px 100px 18px 100px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    padding: 3rem 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .section {
+        max-width: 100%;
+    }
+
+    .image {
+        width: 85%;
+        border-width: 5px;
+    }
+
+    .notice {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    .space {
+        gap: 16px;
+    }
+
+    .no-margin {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .q {
+        font-size: 17px;
+    }
+}

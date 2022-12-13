@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ iframe#hotmart_upsell_iframe {
+    height: 700px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.esconder {
+    display: none;
+}
+
+.warning {
+    padding: 18px;
+    background: #ff0101;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .warning {
+        font-size: 16px;
+    }
+}
+
+.alert {
+    padding: 8px;
+    background: #161f2f;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .alert {
+        font-size: 14px;
+    }
+}
+
+.body {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.body h2 {
+    margin: 0 0 2.2rem 0;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .body h2 {
+        font-size: 23px;
+        line-height: 1.1em;
+    }
+}
+
+.body h2:nth-child(1) {
+    margin-top: 2.2rem;
+}
+
+@media (max-width: 767px) {
+    .body h2:nth-child(1) {
+        margin-top: 0.6rem;
+    }
+}
+
+.sound {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .sound {
+        font-size: 11px;
+    }
+}
+
+.normal-price {
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+@media (max-width: 767px) {
+    .normal-price {
+        font-size: 27px;
+    }
+}
+
+.l-info {
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .l-info {
+        font-size: 15px;
+    }
+}
+
+.offers {
+    font-size: 60px;
+}
+
+@media (max-width: 767px) {
+    .offers {
+        font-size: 40px;
+    }
+}
+
+.cupos {
+    font-size: 19px;
+}
+
+@media (max-width: 767px) {
+    .cupos {
+        font-size: 15px;
+    }
+}
+
+.featured {
+    color: #ff0000;
+    font-weight: 700;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.black {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.black p {
+    margin: 0 0 1rem 0;
+}
+
+.questions {
+    font-weight: 400;
+}
+
+.second {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.message {
+    margin-top: 1.1rem;
+    background: #ff0000;
+    color: #fff;
+    font-weight: 400;
+    padding: 1.4rem 0.3rem;
+}
+
+.some {
+    font-size: 30px;
+    color: #474b4f;
+}
+
+.secrets {
+    font-size: 20px;
+    color: #54595f;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.secrets li {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    line-height: 32px;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #37393a;
+}
+
+.small {
+    font-size: 25px;
+}
+
+@media (max-width: 767px) {
+    .questions,
+    .message,
+    .r {
+        font-size: 17px !important;
+    }
+
+    .message {
+        padding: 0;
+    }
+
+    .desaparece {
+        display: none;
+    }
+
+    .some {
+        font-size: 21px;
+    }
+
+    .secrets {
+        font-size: 16px;
+    }
+
+    .secrets li {
+        line-height: 25px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .no {
+        font-size: 15px;
+    }
+
+    .small {
+        font-size: 17px;
+    }
+
+    .ad,
+    .cero {
+        font-size: 18px;
+    }
+
+    .gift {
+        font-size: 25px;
+    }
+
+    .d {
+        font-size: 20px;
+    }
+}
+
+.title strong {
+    color: #000;
+}
+
+hr {
+    border: none;
+    border: 1px solid #7d7d7d;
+}
+
+.btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background: #12b801;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 50px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe#hotmart_upsell_iframe {
+    height: 700px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.warning {
+    padding: 18px;
+    background: #ff0101;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.alert {
+    padding: 8px;
+    background: #161f2f;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .warning {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .alert {
+        font-size: 14px;
+    }
+}
+
+.body {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-image: url(./images/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.5;
+}
+
+.body h2 {
+    margin: 0 0 2.2rem 0;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.body h2:nth-child(1) {
+    font-size: 40px;
+    margin: 2.7rem 0 2.6rem 0;
+}
+
+.body h2:nth-child(2) {
+    font-size: 40px;
+    margin-bottom: 9.4rem;
+}
+
+@media (max-width: 767px) {
+    .body h2:nth-child(1) {
+        margin: 0.8rem 0 2rem 0;
+    }
+
+    .body h2 {
+        font-size: 25px !important;
+        line-height: normal;
+    }
+
+    .body h2:nth-child(2) {
+        margin-bottom: 5rem;
+    }
+}
+
+.body p:first-of-type {
+    margin-top: 2.8rem;
+}
+
+.body p {
+    margin-bottom: 10rem;
+}
+
+.body p:last-of-type {
+    margin-bottom: 3.2rem;
+}
+
+@media (max-width: 767px) {
+    .body p {
+        font-size: 18px;
+        margin-bottom: 5rem;
+    }
+}
+
+.featured {
+    color: #ff0000;
+    font-weight: 700 !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#b {
+    margin-top: -4rem;
+}

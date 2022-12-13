@@ -1,0 +1,14 @@
+{
+    "name": "Quizz 2 - Maestria",
+    "short_name": "Quizz 2 - Maestria",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ad0f0e",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
