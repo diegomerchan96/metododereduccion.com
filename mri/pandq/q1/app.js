@@ -33,7 +33,7 @@ btn.forEach(button => {
 
         if (index === QUESTIONS.length) {
             announce.parentElement.classList.add("hidden");
-            window.location.href = "https://andreaestradas.com/mri/landingpage/v3";
+            window.location.href = "https://metododereduccion.com/mri/landingpage/v3";
             return;
         }
 
